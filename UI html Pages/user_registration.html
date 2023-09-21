@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <style> 
+    body{
+        display: flex;
+        background-color: rgb(242, 236, 242);
+        margin: 0;
+        
+    }
+    h3{
+        font-size: 50px;
+        font-weight:100;
+        text-align: center;
+    }
+    h5{
+        font-size: 25px;
+        font-weight: 100;
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+   div{
+    display: flex;
+    justify-content: center;
+   }
+   
+   .input{
+    height: 20px;
+   }
+    </style>
+</head>
+<body>
+    <form>
+    <h3>Bank Account Registration Form</h3>
+    <h5>Account Type</h5>
+<div class="division">
+    <p>Account Type: </p>
+    <input type="text" id="acctype" name="input" class="input"/>
+</div>
+<div>
+    <p>Currency Type: </p>
+    <input type="text" id="currtype" name="input" class="input" />
+</div>
+    <h5>Contact Information</h5>
+    <div class="division">
+    <p>Full Name: </p>
+    <input type="text" id="fullname" name="input" class="input"/>
+</div>
+    <div class="division">
+    <p>Mobile Number: </p>
+    <input type="text" id="mobile" name="input" class="input"/>
+</div>
+<div class="division">
+    <p>Email: </p>
+    <input type="text" id="email" name="input" class="input" />
+</div>
+    <div class="division">
+    <p>Street Address: </p>
+    <input type="text" id="street" name="input" class="input"/>
+</div>
+    <div class="division">
+    <p>City: </p>
+    <input type="text" id="city" name="input" class="input"/>
+</div>
+<div class="division">
+    <p>State: </p>
+    <input type="text" id="state" name="input" class="input"/>
+</div>
+    <p>Country: </p>
+    <input type="text" id="country" name="input" class="input" />
+    <p>Pincode: </p>
+    <input type="text" id="pincode" name="input" class="input"/>
+    <h5>Verification Details</h5>
+    <p>Aadhaar Number: </p>
+    <input type="text" id="aadhaar" name="input" class="input"/>
+    <br/>
+    <br/>
+    <button type="submit" id="btn" name="btn">Submit</button>
+
+
+
+</form>
+</body>
+</html>
